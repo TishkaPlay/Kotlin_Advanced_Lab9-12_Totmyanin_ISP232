@@ -1,4 +1,4 @@
-class Hero(val name: String) {
+/*class Hero(val name: String) {
     var health: Int = 100
         set(value) {
             field = value.coerceIn(0, 100)
@@ -25,4 +25,4 @@ fun main() {
 
     hero.levelUp()
     println(hero.level)
-}
+}*/
