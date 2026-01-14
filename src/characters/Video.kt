@@ -1,3 +1,5 @@
+package characters
+
 interface VideoPlayable {
     fun play() = println("Play video")
 }

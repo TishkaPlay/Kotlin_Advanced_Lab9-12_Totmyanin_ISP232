@@ -1,3 +1,8 @@
+package modules
+
+import resources.OutpostResource
+import resources.ResourceManager
+
 class EnergyGenerator : OutpostModule("Генератор энергии") {
     override fun perfomAction(manager: ResourceManager) {
         println("Генератор работает... Производит 20 энергии")

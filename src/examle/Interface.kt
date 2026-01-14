@@ -1,3 +1,5 @@
+package examle
+
 interface Movable{
     var speed: Int
     val model: String
@@ -10,7 +12,7 @@ interface Movable{
 class Car (
     override val model: String,
     override val number: String
-) : Movable{
+) : Movable {
     override var speed = 60
     override fun move() {
         println("Едем на машине со скоростью $speed км/ч")
@@ -20,7 +22,7 @@ class Car (
 class Aircraft (
     override val model: String,
     override val number: String
-) : Movable{
+) : Movable {
     override var speed = 600
     override fun move(){
         println("Летим на самолете со скоростью $speed км/ч")

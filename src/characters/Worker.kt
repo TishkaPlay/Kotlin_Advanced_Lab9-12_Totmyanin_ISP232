@@ -1,3 +1,5 @@
+package characters
+
 interface Worker{
     fun work()
 }

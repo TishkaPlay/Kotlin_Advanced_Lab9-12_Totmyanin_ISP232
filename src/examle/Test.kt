@@ -1,4 +1,4 @@
-import java.time.Period
+package examle
 
 /*var age: Int = 18
     set(value) {
